@@ -14,6 +14,7 @@
   - [Data Preparation](#data-preparation)
   - [Prediction Execution](#prediction-execution)
   - [Analysis Notebooks](#analysis-notebooks)
+- [Images](#images)
 - [Project Structure](#project-structure)
 - [Licensing](#licensing)
 
@@ -107,6 +108,12 @@ Available notebooks include:
 - Segment-Boundary-Model-2.ipynb: Training and evaluation protocols
 - image_predictor_example.ipynb: Implementation examples
 - sam_2_2.ipynb: SAM optimization procedures
+
+## Images
+
+![photo_2025-02-15_16-46-15](https://github.com/user-attachments/assets/154772e0-1698-46db-bef8-8081111826e8)
+
+![photo_2025-02-15_16-46-39](https://github.com/user-attachments/assets/f5243ae4-f2fa-43d0-8f78-b7f07f15b1a2)
 
 ## Project Structure
 
