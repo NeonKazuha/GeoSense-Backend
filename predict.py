@@ -149,11 +149,3 @@ if __name__ == "__main__":
         uvicorn.run("predict:app", host="0.0.0.0", port=8000, reload=True)
     except Exception as e:
         logger.error(f"Error starting FastAPI server: {e}")
-
-
-if __name__ == "__main__":
-    try:
-        logger.info("Starting FastAPI server...")
-        uvicorn.run("predict:app", host="0.0.0.0", port=8000, reload=True)
-    except Exception as e:
-        logger.error(f"Error starting FastAPI server: {e}")
