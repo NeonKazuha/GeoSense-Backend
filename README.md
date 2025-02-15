@@ -20,7 +20,7 @@
 
 ## Overview
 
-GeoSense-Backend is an advanced machine learning system designed for precise land boundary detection. The system utilizes the Segment-Anything Model (SAM) architecture to achieve highly accurate boundary detection in geospatial data. Through integration with Roboflow for data annotation, the system provides comprehensive land segmentation capabilities with documented accuracy rates of 99%.
+GeoSense-Backend is an advanced machine learning system designed for precise land boundary detection. The system utilizes the Segment-Anything Model (SAM) architecture to achieve highly accurate boundary detection in geospatial data. Through integration with Roboflow for data annotation, the system provides comprehensive land segmentation capabilities with documented accuracy rates of 75-90%.
 
 ## Key Features
 
@@ -85,13 +85,10 @@ pip install -r requirements.txt
 
 ## Implementation Guide
 
-### Data Preparation
-Place geospatial datasets in the designated directory. Ensure compatibility with supported formats (CSV, GeoJSON) and verify the presence of necessary satellite imagery features.
-
 ### Prediction Execution
 
 ```bash
-python predict.py --input your_dataset.csv --output predictions.csv
+python predict.py
 ```
 
 Specify the input dataset file and designated output location for boundary predictions.
@@ -111,7 +108,9 @@ Available notebooks include:
 
 ## Images
 
-![photo_2025-02-15_16-46-15](https://github.com/user-attachments/assets/154772e0-1698-46db-bef8-8081111826e8)
+![Screenshot 2025-02-15 170735](https://github.com/user-attachments/assets/f7721c51-5965-40e0-a6ce-ca84b6179974)
+
+![segmented_image](https://github.com/user-attachments/assets/aa9aaa2b-8853-474f-8164-308bd0fcec0e)
 
 ![photo_2025-02-15_16-46-39](https://github.com/user-attachments/assets/f5243ae4-f2fa-43d0-8f78-b7f07f15b1a2)
 
@@ -139,10 +138,10 @@ GeoSense-Backend/
 │           - Architecture modifications
 │           - Performance improvements
 │
-├── predict.py          # Prediction implementation
-├── requirements.txt    # Dependency specifications
-├── .gitignore         # Version control exclusions
-└── LICENSE            # Legal documentation
+├── predict.py                            # Prediction implementation
+├── requirements.txt                      # Dependency specifications
+├── .gitignore                            # Version control exclusions
+└── LICENSE                               # Legal documentation
 ```
 
 ## Licensing
