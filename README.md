@@ -81,6 +81,7 @@ source venv/bin/activate  # For Windows: venv\Scripts\activate
 
 ```bash
 pip install -r requirements.txt
+
 ```
 
 ## Implementation Guide
