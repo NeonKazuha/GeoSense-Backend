@@ -52,7 +52,6 @@ GeoSense-Backend is an advanced machine learning system designed for precise lan
 │   ├── img.py                                # Single image prediction handler
 │   └── svg.py                                # Converts predictions to SVG
 ├── config.py                                 # Configuration and constants
-├── demo/                                     # (Reserved) Demo UI or example app
 ├── main.py                                   # Entry point for the backend service
 ├── notebooks/                                # Jupyter notebooks for model development
 │   ├── Segment-Boundary-Model-2.ipynb        # Training and evaluation
